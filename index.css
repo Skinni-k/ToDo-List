@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#addNoteForm {
+  background-color: lightblue;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#updateNoteForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+
+input {
+  height: 2rem;
+  width: 20rem;
+  margin: 0 2rem;
+}
+
+#noteList {
+  background-color: palegreen;
+  min-height: 75vh;
+  overflow: hidden;
+}
+
+.individualNote {
+  min-height: 100px;
+  height: fit-content;
+  max-width: 80%;
+  border: 3px solid black;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+}
+
+h2 {
+  margin: 2rem 0;
+  width: 25%;
+  word-break: break-all;
+}
+
+button,
+select {
+  height: 30px;
+  width: 60px;
+  min-width: fit-content;
+}
